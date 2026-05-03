@@ -80,7 +80,7 @@ export default function App() {
                {isScrolled && (
                  <motion.img 
                    layoutId="profile-pic"
-                   src="/profile.jpeg" 
+                   src="https://github.com/GRUTHWIKREDDY.png" 
                    alt="Ruthwik Reddy" 
                    className="absolute inset-0 w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 pointer-events-auto rounded-full border border-cyber-green/50 shadow-[0_0_15px_rgba(0,255,157,0.3)] origin-center z-[100]" 
                    transition={{ type: "spring", stiffness: 60, damping: 15, mass: 1 }}
@@ -116,7 +116,7 @@ export default function App() {
                 {!isScrolled && (
                   <motion.img 
                     layoutId="profile-pic"
-                    src="/profile.jpeg" 
+                    src="https://github.com/GRUTHWIKREDDY.png" 
                     alt="Ruthwik Reddy" 
                     className="absolute inset-0 w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 pointer-events-auto rounded-full border border-cyber-green/30 shadow-[0_0_30px_rgba(0,255,157,0.15)] origin-center z-[100]" 
                     transition={{ type: "spring", stiffness: 60, damping: 15, mass: 1 }}
